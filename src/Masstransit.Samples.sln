@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Masstransit.RabbitMq.Extensions", "..\Masstransit.RabbitMq.Extensions\Masstransit.RabbitMq.Extensions.csproj", "{320C62B3-0ECF-4265-BF5B-A6397BE65E05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Masstransit.RabbitMq.Extensions", "Masstransit.RabbitMq.Extensions\Masstransit.RabbitMq.Extensions.csproj", "{320C62B3-0ECF-4265-BF5B-A6397BE65E05}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.SendPattern", "01.SendPattern", "{9550AEEE-FE8B-4BFA-80B6-AC70980ADA47}"
 EndProject

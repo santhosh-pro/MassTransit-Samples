@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\..\..\Masstransit.RabbitMq.Extensions\Masstransit.RabbitMq.Extensions.csproj" />
+    <ProjectReference Include="..\..\Masstransit.RabbitMq.Extensions\Masstransit.RabbitMq.Extensions.csproj" />
     <ProjectReference Include="..\PublishSubscribePattern.Contracts\PublishSubscribePattern.Contracts.csproj" />
   </ItemGroup>
 
