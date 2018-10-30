@@ -51,6 +51,14 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandleExceptions.Contracts"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HandleExceptions.Producer", "04.HandleExceptions\HandleExceptions.Producer\HandleExceptions.Producer.csproj", "{F3B1CB76-6F7A-48CB-BEA4-8252A576680C}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "05.ScheduleMessages", "05.ScheduleMessages", "{65D8F17F-BB17-4AF0-9633-E9AC28D229CF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScheduleMessages.Producer", "05.ScheduleMessages\ScheduleMessages.Producer\ScheduleMessages.Producer.csproj", "{B003883B-BBD9-4806-9940-BA773371D178}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScheduleMessages.Consumer1", "05.ScheduleMessages\ScheduleMessages.Consumer1\ScheduleMessages.Consumer1.csproj", "{7F28EEA7-949D-438E-A904-63A2DD0661DF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ScheduleMessages.Contracts", "05.ScheduleMessages\ScheduleMessages.Contracts\ScheduleMessages.Contracts.csproj", "{E517E641-3BDC-4348-B7C0-33A8E65FA3A9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -137,6 +145,18 @@ Global
 		{F3B1CB76-6F7A-48CB-BEA4-8252A576680C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F3B1CB76-6F7A-48CB-BEA4-8252A576680C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F3B1CB76-6F7A-48CB-BEA4-8252A576680C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B003883B-BBD9-4806-9940-BA773371D178}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B003883B-BBD9-4806-9940-BA773371D178}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B003883B-BBD9-4806-9940-BA773371D178}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B003883B-BBD9-4806-9940-BA773371D178}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7F28EEA7-949D-438E-A904-63A2DD0661DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F28EEA7-949D-438E-A904-63A2DD0661DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F28EEA7-949D-438E-A904-63A2DD0661DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7F28EEA7-949D-438E-A904-63A2DD0661DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E517E641-3BDC-4348-B7C0-33A8E65FA3A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E517E641-3BDC-4348-B7C0-33A8E65FA3A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E517E641-3BDC-4348-B7C0-33A8E65FA3A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E517E641-3BDC-4348-B7C0-33A8E65FA3A9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -161,6 +181,9 @@ Global
 		{631D5B9E-FC37-4511-B2A9-6D524DAEEEC8} = {4D9F8FFB-C2BE-43CA-B080-A0BCC55478D4}
 		{5A665219-FF33-491C-BC97-E5B90F8B7FDE} = {4D9F8FFB-C2BE-43CA-B080-A0BCC55478D4}
 		{F3B1CB76-6F7A-48CB-BEA4-8252A576680C} = {4D9F8FFB-C2BE-43CA-B080-A0BCC55478D4}
+		{B003883B-BBD9-4806-9940-BA773371D178} = {65D8F17F-BB17-4AF0-9633-E9AC28D229CF}
+		{7F28EEA7-949D-438E-A904-63A2DD0661DF} = {65D8F17F-BB17-4AF0-9633-E9AC28D229CF}
+		{E517E641-3BDC-4348-B7C0-33A8E65FA3A9} = {65D8F17F-BB17-4AF0-9633-E9AC28D229CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {EA368823-AA1E-4B62-8A64-AD0AD8F7676E}
